@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package main;
+
+option go_package = "testBertClient/proto";
+
+message PredictRequest {
+  string text = 1;
+}
+
+message PredictResponse {
+  string prediction = 1;
+}
+
+service BertClassifier {
+  rpc Predict(PredictRequest) returns (PredictResponse);
+}
