@@ -14,6 +14,7 @@ URL saver is a Telegram bot written in Golang that utilizes a multilingual BERT 
 - Python
 - PyTorch GPU
 - Transformers
+- PostgreSQL database
 - Telegram Bot API token
 - Pre-trained multilingual BERT [Google drive](https://drive.google.com/file/d/1kTJC3X9RTHXeiqoEPRJi_CfG7UiXiODX/view?usp=sharing). Put in /internal/ml/bert-classifier/model/content/
 
